@@ -1,0 +1,431 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a {
+	color:black;
+	text-decoration: none;
+}
+.clearfix::after{
+ 	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	height: 50px;
+	background-color: #0080c0;
+	position: relative;
+}
+header span{
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	right: 10px;
+	color:#fff;
+	top:10px;
+	background-color: #7bc0e3;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+div.type{
+	background-color: #ededed;
+	padding: 10px 0 0 10px;
+}
+div.type ul li{
+   float: left;
+   box-sizing:border-box;
+   width: 20%;
+   height: 30px;
+   margin-bottom: 10px;
+   text-align: center;
+   line-height: 30px;
+}
+div.type ul li a{
+	display: inline-block;
+	background-color: #0080c0;
+	color:#fff;
+	width: 80%;
+	height: 100%;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+div.search{
+	height: 40px;
+	padding:10px 5px 0 15px;
+	box-sizing:border-box;
+	background-color: #f8fdff;
+	position: relative;
+}
+div.search input{
+	padding: 5px 0 5px 5px;
+	width: 95%; 	
+	box-sizing:border-box;
+	border: 1px #c0deea solid;
+	background-color: #f8fdff;
+}
+div.search span.btnsearch{
+	background: url(../img/logo/icon-search.gif) no-repeat center left;
+    background-size: 18px;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+    box-sizing:border-box;
+    border-left: 1px solid #c0deea;
+}
+/*content tpl_home*/
+section .content>ul>li>p{
+	width: 100%;
+	height: 30px;
+	background-color:#0080c0; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+section .content>ul>li>p>span{
+	display: inline-block;
+	background-color: #fff;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+	text-align: center;
+	color: #0080c0;
+	font-size: 14px;
+	font-weight: bold;
+}
+section .content>ul>li>ul>li{
+	box-sizing:border-box;
+	padding:5px 8px;
+}
+section .content>ul>li>ul>li>a{
+	float: left;
+	display: inline-block;
+}
+section .content>ul>li>ul>li>a>img{
+   width: 91px;
+   height: 119px;
+}
+section .content>ul>li>ul>li>div.con{
+   float: left;
+   width: 200px;
+   margin-left: 10px;
+   box-sizing:border-box;
+}
+section .content>ul>li>ul>li>div.con p{
+	font-size: 14px;
+	color:#666;
+	margin-bottom: 5px;
+}
+section .content>ul>li>ul>li>div.con p:first-child{
+	font-size: 16px;
+	color:black;
+}
+section .content>ul>li>ul>li>p{
+   font-size: 14px;
+   border-bottom: 1px dashed #666;
+   height: 30px;
+}
+/*tpl_typelist*/
+.common.header{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background-color:#0080c0;
+	text-align: center;
+	line-height: 50px; 
+}
+.common.header span.arrow{
+	position: absolute;
+	border:10px solid transparent;
+	border-right-color:#fff;
+	left: 10px;
+	top:16px; 
+}
+.common.header h2{
+	color: #fff;
+	font-size: 14px;
+}
+.common.header a{
+	position: absolute;
+	right: 10px;
+	top:12px;
+	width: 40px;
+	height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #9dd0ea;
+    font-size: 14px;
+    border-radius:5px;
+}
+.typelist .typebox {
+	padding: 10px 0;
+	background-color: #ededed;
+}
+.typelist .typebox ul li {
+	float: left;
+	width: 20%;
+	height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.typelist .typebox ul li span{
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	background-color: #0080c0;
+	border-radius: 5px;
+	color: #fff;
+	line-height: 30px;
+}
+.typelist .novelist ul li {
+	position: relative;
+	padding: 5px 28px 5px 0;
+	height: 85px;
+	overflow: hidden;
+}
+.typelist .novelist ul li.open{
+	height:auto;
+}
+.typelist .novelist ul li a{
+  float: left; 
+  width: 60px;
+  height: 80px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+.typelist .novelist ul li a img{
+  width: 100%;
+  height: 100%;
+}
+.typelist .novelist ul li .content{
+	font-size: 14px;
+	color:#7f9ba8;
+}
+.typelist .novelist ul li .content p{
+	margin-bottom:5px;
+}
+.typelist .novelist ul li .content .title{
+	font-size: 16px;
+	color: black;
+}
+.typelist .novelist ul li span.arrow{
+	position: absolute;
+	right: 10px;
+	top:60px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	/*border:1px solid #7f9ba8;*/
+	background:url("../img/icon/longview.png") no-repeat;
+	background-size: 20px 20px;
+}
+.typelist .novelist ul li span.arrow.short{
+	transform:rotate(180deg);
+}
+.typelist .page{
+	width: 100%;
+	height: 30px;
+	background-color: #0080c0;
+	text-align: center;
+	line-height: 30px;
+}
+.typelist .page input{
+	background-color: #fff;
+	border:none;
+	width: 60px;
+	height: 20px;
+	border-radius: 3px;
+	text-align: center;
+}
+.typelist .page span.pre{
+    font-size: 14px;
+	color:#fff;
+	margin-right: 10px;
+}
+.typelist .page span.next{
+	font-size: 14px;
+	color:#fff;
+	margin-left: 10px;
+}
+/*tpl_catalog样式*/
+.tpl_catalog .banner{
+	width: 100%;
+	height: 150px;
+	background-color: #edfaff;
+	padding: 20px 0 10px 10px;
+	box-sizing:border-box;
+}
+.tpl_catalog .banner a{
+	float: left;
+	margin-right: 10px;
+}
+.tpl_catalog .banner a img{
+	width: 90px;
+	height: 120px;
+}
+.tpl_catalog .banner .content{
+	float: left;
+	width: 200px;
+}
+.tpl_catalog .banner .content p{
+	height: 25px;
+	line-height: 25px;
+	color: #4c6978;
+	font-size: 14px;
+}
+.tpl_catalog .banner .content p.lastcapter{
+	color:red;
+}
+.tpl_catalog .pre .btn{
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.tpl_catalog .pre .btn span{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background-color: #658fbd;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	color: #fff;
+}
+.tpl_catalog .pre .btn span.start{
+	background-color: #ea254f;
+}
+.tpl_catalog .pre .btn span.addmark{
+	background-color: #f0962a;
+}
+.tpl_catalog .pre .preview{
+	padding: 0 10px;
+	color: #4c6978;
+	font-size: 14px;
+}
+.tpl_catalog .capter .tip{
+	color: #fff;
+	background-color: #0080c0;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.tpl_catalog .capter .detail li{
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.tpl_catalog .capter .detail li a{
+	color: #4c6978;
+}
+/*小说阅读csstpl_viewnovel*/
+.tpl_viewnovel  .header{
+	height: 50px;
+	background-color: #0080c0;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	line-height: 50px;
+}
+.tpl_viewnovel  .header .arrow{
+    position: absolute;
+	border:10px solid transparent;
+	border-right-color:#fff;
+	left: 10px;
+	top:16px; 
+}
+.tpl_viewnovel  .header .bookname{
+	position: absolute;
+	right: 10px;
+}
+.tpl_viewnovel .btn .tool{
+	height: 45px;
+	padding: 0px 0 0 10px;
+	line-height: 45px;
+}
+.tpl_viewnovel .btn .tool span{
+   display: inline-block;
+   color: #fff;
+   text-align: center;
+   height: 40px;
+   line-height: 40px;
+   margin-right: 5px;
+}
+.tpl_viewnovel .btn .tool .light{
+	width: 40px;
+	background:#606060;
+    border-radius: 5px;
+}
+.tpl_viewnovel .btn .tool .eyes{
+    width: 40px;
+	background:#8edea0;
+    border-radius: 5px;
+}
+.tpl_viewnovel .btn .tool .label{
+	color: black;
+}
+.tpl_viewnovel .btn .tool .font{
+	width: 30px;
+	color:black;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.tpl_viewnovel .btn .tool .font.cur{
+	color: #fff;
+	background-color: #616161;
+}
+.tpl_viewnovel .btn .tool a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #7bc0e3;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+}
+.tpl_viewnovel .readpage{
+	background-color: #d4eaf2;
+	height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #2a779d;
+}
+.tpl_viewnovel .readpage .pre{
+	display: inline-block;
+	width: 60px;
+}
+.tpl_viewnovel .readpage .next{
+	display: inline-block;
+	width: 60px;
+	color:#fff;
+}
+.tpl_viewnovel .readpage a{
+	display: inline-block;
+	width: 60px;
+	color:#2a779d;;
+}
+.tpl_viewnovel .container .defaults {
+	display: inline-block;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: red;
+	width: 100%;
+	font-size: 18px;
+}
+.tpl_viewnovel .container .content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
