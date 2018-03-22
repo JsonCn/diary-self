@@ -2,10 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>聊天室</title>
+	<title>Document</title>
+	<style type="text/css">
+		body {
+			/*overflow: hidden;*/
+			cursor:pointer;
+		}
+		#home {
+			width:1000px;
+			height: 600px;
+			margin:0 auto;
+			overflow-x:hidden;
+			overflow-y:auto;
+		}
+	</style>
 </head>
 <body>
-	<div class="app" id="app"></div>
-	<script type="text/javascript" src="./pack/index.js"></script>
+	<div id="home"></div>
+	<script type="text/javascript" src="js/any.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/squire-raw.js"></script>
+	<script type="text/javascript" src="lib/turn.js"></script>
+	<script type="text/javascript">
+		new Any.Diary( { el:$("#home")}).render( ).load( );
+	</script>
 </body>
 </html>
