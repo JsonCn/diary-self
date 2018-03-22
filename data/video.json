@@ -1,0 +1,5 @@
+{
+   "error":0,
+   "data":[{"type":"movie","desc":"电影","detail":[{"type":"科幻","detail":[{"title":"正义联盟","url":"正义联盟.mp4"}]},{"type":"言情"},{"type":"恐怖"}]},
+   	       {"type":"tv","desc":"电视剧","detail":[{"type":"都市","detail":[{"title":"柒个我","detail":[{"title":"柒个我06","url":"柒个我06.mp4"},{"title":"柒个我07","url":"柒个我07.mp4"},{"title":"柒个我08","url":"柒个我08.mp4"},{"title":"柒个我09","url":"柒个我09.mp4"},{"title":"柒个我10","url":"柒个我10.mp4"},{"title":"柒个我11","url":"柒个我11.mp4"}]}]}]}]
+}
